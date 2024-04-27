@@ -372,8 +372,9 @@ span {
     font-size: 8rem;
 }
 .projects {
-    background: url(src/image.png)center no-repeat;
+    background: url(src/code.png)center no-repeat;
     background-size: cover;
+    
 }
 .projects-box {
     display: grid;
