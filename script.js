@@ -26,3 +26,8 @@ menuIcon.onclick = () => {
   menuIcon.classList.toggle("bx-x");
   navbar.classList.toggle("active");
 };
+
+let date = new Date();
+let options = { timeZone: "Europe/Warsaw" };
+let poland = date.toLocaleString("pl-PL", options);
+console.log(poland);
